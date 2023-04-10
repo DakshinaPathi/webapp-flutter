@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Market Palce'),
+      home: const MyHomePage(title: 'Flutter Web Palce'),
     );
   }
 }
@@ -55,7 +55,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'You have pressed github commet',
+              'WebApp Click Count',
             ),
             Text(
               '$_counter',
